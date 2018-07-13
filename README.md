@@ -9,7 +9,8 @@
 Run following code in zypper in your OpenSUSE or SLES:
 
 ```bash
-sudo zypper ar -G https://rpm.patrickwu.ml/ ruapm
+sudo zypper ar https://rpm.patrickwu.ml/ ruapm
+sudo zypper ref
 ```
 
 Now you have properly add this repository.
